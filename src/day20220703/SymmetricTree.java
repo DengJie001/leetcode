@@ -31,6 +31,7 @@ public class SymmetricTree {
             return false;
         }
         check(root, root);
+        return false;
     }
 
     private boolean check(TreeNode p, TreeNode q) {
